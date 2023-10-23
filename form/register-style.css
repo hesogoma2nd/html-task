@@ -1,0 +1,26 @@
+table {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+table,th,td{
+    border: solid 2px black;
+}
+th{
+   background-color: aquamarine;
+}
+td{
+    background-color: silver;
+}
+th,td{
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+.indispensability{
+    background-color: red;
+    border-radius: 5px;
+    padding: 2px;
+}
+span{
+    font-size: 0.5rem;
+}

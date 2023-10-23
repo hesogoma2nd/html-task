@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+li{
+    color: rebeccapurple;
+}
+
+.text-blue{
+    color: blue;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+#bg-yellow{
+    background-color: yellow;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+span{
+    border: 2px dotted green;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+}
