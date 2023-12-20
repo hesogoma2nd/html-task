@@ -1,0 +1,40 @@
+/*記述済みの部分は変更しないでください！*/
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+ul.mark-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.mark-list p {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul.mark-list li:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+ul.mark-list p {
+    margin: 0;
+}
+
+li {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
