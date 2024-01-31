@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+caption{
+    font-size:  50px;
+    background-color:honeydew;
+    color: black;
+}
+
+table{
+    background-color: aliceblue;
+    font-size: 70px;
+    font-family:"HGP明朝E" ,serif;
+}
+
+li{
+    font-size: 20px;
+}
+
+p{
+    font-size: 50px;
+    color: black;
+}
+
+
+table,th,td{
+    border: solid 5px black;
+    border-collapse: collapse;
+}
+
+.sample{
+    width: 2530px;
+    height: 300px;
+}
+
+img{
+    margin: 2px;
+    width: 430px;
+    height: 430px;
+}
+
+
+thead{
+    background-color: rgba(175,238,238);;
+}
+
+body{
+    background-color: bisque;
+    background-size: cover;
+}
