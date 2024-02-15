@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+body {
+  background-image: url(img/saucydog_haikei.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+#introduction a img:hover {
+  opacity: 0.8;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Bitter', serif;
+  font-size: 40px;
+}
+
+h1::before {
+  content: "";
+  padding-right: 10px;
+  border-top: 7px solid #bbb;
+
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.btn {
+  color: #ffffff;
+  border-bottom: none;
+}
+
+footer {
+  padding: 20px;
+  border-top: 2px solid #ffffff;
+}
+
+footer :hover {
+  opacity: 0.8;
+}
+
+
+ul.sns-btn {
+  list-style: none;
+  padding: 0;
+}
+
+ul.sns-btn li {
+  display: inline-block;
+  margin-right: 20px;
+  float: right;
+}
+
+ul.sns-btn li img {
+  width: 40px;
+  height: auto;
+}
+
+footer small {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+  float: left;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+
+header .inner {
+  position: relative;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* .logo */
+
+header .logo {
+  position: relative;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+header .logo a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+/* scroll */
+
+header {
+  transition: height 0.4s cubic-bezier(0.34, 0.615, 0.4, 0.985);
+}
+
+header.scroll {
+  height: 60px;
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  transition: width 0.4s cubic-bezier(0.34, 0.615, 0.4, 0.985);
+}
+
+header.scroll .logo {
+  width: 70px;
+}
+
+/* header-navi-box */
+
+header .navi {
+  margin: 0 0 0 auto;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  list-style: none;
+}
+
+header .navi li {
+  margin: 5px 0 5px 40px;
+}
+
+header .navi li:first-child {
+  margin-left: 0;
+}
+
+header .navi li a {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header .navi li a:hover {
+  text-decoration: underline;
+}
+
+
+.logo {
+  margin-top: 50px;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+.content h2 {
+  border-left: 7px solid #000;
+}
+
+.logo img {
+  height: 70px;
+  width: 170px;
+}
+
+.ooo {
+  margin-top: 70px;
+}
+
+#page_top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background: #030303;
+  opacity: 0.6;
+}
+
+#page_top:hover {
+  background: red;
+}
+
+#page_top a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#page_top a::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  transition: color 0.3s ease;
+  border-radius: 50%;
+}

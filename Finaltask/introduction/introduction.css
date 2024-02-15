@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+body {
+    background-image: url(../img/saucydog_haikei3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+main {
+    width: 700px;
+    margin: 0 10px;
+}
+
+.sidebar {
+    width: 200px;
+    margin: 0 10px 0 30px;
+    font-family: 'Bitter', serif;
+}
+
+.contents {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.contents section {
+    margin-bottom: 30px;
+}
+
+#portfolio a img:hover {
+    opacity: 0.8;
+}
+
+.sidebar ul {
+    list-style-position: inside;
+}
+
+.sidebar ul a {
+    color: #333333;
+}
+
+#photograph {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.photograph-list li {
+    list-style: none;
+    margin: 0 20px 15px 0;
+}
+
+.photograph-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photograph-list li:nth-child(3n) {
+    margin-right: 0;
+}
+
+ul img {
+    width: 560px;
+    height: 315px;
+}
+
+.navi img {
+    width: 100px;
+    height: 25px;
+}
+
+h2 {
+    color: #333333;
+}
+
+p {
+    color: #fff;
+}
+
+.sidebar {
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    border: 2px solid #1500FF;
+    color: #00aefff4
+}
+
+.sidebar a {
+    font-size: 23px;
+    color: #fff;
+}
+
